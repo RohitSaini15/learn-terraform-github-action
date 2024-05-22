@@ -1,9 +1,10 @@
 name: "Terraform Apply"
 
 on:
-  push:
-    branches:
-      - main
+  # push:
+  #   branches:
+  #     - main
+  workflow_dispatch:
 
 env:
   TF_CLOUD_ORGANIZATION: "YOUR-ORGANIZATION-HERE"
